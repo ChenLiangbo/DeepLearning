@@ -1,0 +1,6 @@
+{"batchSize": 128, "iterTimes": 200, "trainNumber": 55000}
+{"batchSize": 64, "iterTimes": 200, "trainNumber": 55000}
+{"batchSize": 192, "iterTimes": 200, "trainNumber": 55000}
+{"batchSize": 218, "iterTimes": 200, "trainNumber": 55000}
+{"batchSize": 164, "iterTimes": 200, "trainNumber": 55000}
+{"batchSize": 178, "iterTimes": 200, "trainNumber": 55000}

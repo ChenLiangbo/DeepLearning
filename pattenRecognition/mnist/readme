@@ -1,0 +1,3 @@
+p2-demo:only difference with p3-demo is using 2x2 pooling kernel
+p3-demo:the same structure with paper read
+demo-p2:dropout,out and pooling kernel are not same with p3-demo

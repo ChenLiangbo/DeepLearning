@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/chenlb/mnist/demo-p2/CNNmodel/cnnModelSix.ckpt"
+all_model_checkpoint_paths: "/home/chenlb/mnist/demo-p2/CNNmodel/cnnModelSix.ckpt"
