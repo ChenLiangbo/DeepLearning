@@ -1,3 +1,10 @@
 *.pyc
 *.py~
 *.txt~
+*.csv
+*.npy
+*.xls
+*.xlsx
+*.jpg
+*.png
+
