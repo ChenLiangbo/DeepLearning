@@ -27,7 +27,7 @@ print("normalize_data = ",normalize_data.shape)
 
 #生成训练集
 #设置常量
-time_step=20      #时间步
+time_step=50      #时间步
 rnn_unit=10       #hidden layer units
 batch_size=60     #每一批次训练多少个样例
 input_size=1      #输入层维度
