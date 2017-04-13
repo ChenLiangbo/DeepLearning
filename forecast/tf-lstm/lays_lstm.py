@@ -1,5 +1,7 @@
 #!usr/bin/env/python 
 # -*- coding: utf-8 -*-
+
+# https://medium.com/@erikhallstrm/using-the-dynamicrnn-api-in-tensorflow-7237aba7f7ea
 from __future__ import print_function, division
 
 import numpy as np
