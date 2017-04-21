@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/chenlb/lstm_stock/model3/stockModel.ckpt"
+all_model_checkpoint_paths: "/home/chenlb/lstm_stock/model3/stockModel.ckpt"

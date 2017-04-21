@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-
+from tensorflow.python.ops import rnn 
 #定义常量
 rnn_unit    = 10             # hidden layer units
 input_size  = 7
@@ -84,7 +84,7 @@ def lstm(X):
     input_rnn=tf.reshape(input_rnn,[-1,time_step,rnn_unit])  #将tensor转成3维，作为lstm cell的输入
     cell=tf.nn.rnn_cell.BasicLSTMCell(rnn_unit)
     init_state=cell.zero_state(batch_size,dtype=tf.float32)
-    output_rnn,final_states=tf.nn.dynamic_rnn(cell, input_rnn,initial_state=init_state, dtype=tf.float32)  #output_rnn是记录lstm每个输出节点的结果，final_states是最后一个cell的结果
+    output_rnn,final_states=rnn.dynamic_rnn(cell, input_rnn,initial_state=init_state, dtype=tf.float32)  #output_rnn是记录lstm每个输出节点的结果，final_states是最后一个cell的结果
     output=tf.reshape(output_rnn,[-1,rnn_unit]) #作为输出层的输入
     w_out=weights['out']
     b_out=biases['out']
