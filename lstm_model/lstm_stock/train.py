@@ -81,9 +81,9 @@ print("x_train = ",x_train.shape,y_train.shape)
 
 from model import MyLSTM
 
-model = MyLSTM(layers = [5,10,1],time_step = time_step,lr = 0.0006,epoch = 5)
+model = MyLSTM(layers = [5,10,1],time_step = time_step,lr = 0.0006,epoch = 10000)
 
-print("train LSTM model ...")
+# print("train LSTM model ...")
 # model.train(x_train,y_train)
 
 print("evaluate LSTM model ...")
